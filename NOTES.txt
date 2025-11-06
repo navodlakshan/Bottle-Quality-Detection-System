@@ -1,0 +1,61 @@
+bottle >>>
+
+Body cracks : 52 (ok)
+Cracked mouth : 98 (difficult to use and annotate)
+Cracked mouth (01) : 45 (more suitable)
+Good bottle : 1
+Low Quality Bottle : 177 (shape)
+other : 57 images 
+Up side image : 75 (ok)
+
+Research >>>>
+
+New folder : upside > images 37
+New folder (2) : 100 > mix of good and bad bottles
+New folder (3) : 135 > mix of good and bad bottles
+Research : 127 > images of other brands
+
+
+Final Dataset :
+
+body_cracks : 52
+cracked_mouth : 45
+good_bottles : 1
+mix_of_good_and_bad_bottles : 468
+other_bottles : 127
+up_side_images : 112
+
+Total Images = 805
+
+
+Objects to detect:
+
+Body cracks >>> ok
+Neck cracks >>> ok
+lucky_logo_clear >>> should try
+lucky_logo_faded >>> should try 
+other_logo >>> ok
+clean_bottles >>> ok
+unclean_bottles >>> ok
+
+Model A >>>>>>>>>>>>>>>>>>>>>>>>>>>
+classes :
+
+other_logo
+lucky_logo_clear
+lucky_logo_unclear
+neck_crack
+body_crack
+
+
+Model B >>>>>>>>>>>>>>>>>>>>>>>>>>>
+classes :
+
+clean_bottles
+unclean_bottles
+ 
+
+ commands :
+
+set LOCAL_FILES_SERVING_ENABLED=true
+label-studio start
