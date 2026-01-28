@@ -1,6 +1,9 @@
 run the frontend
 
-cd Bottle-Quality-Detection-System
+//cd Bottle-Quality-Detection-System
+
+
+
 cd Testing_APP
 cd Front_End
 pip install streamlit
