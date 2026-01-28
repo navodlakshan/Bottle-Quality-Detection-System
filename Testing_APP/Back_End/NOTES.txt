@@ -1,0 +1,9 @@
+start the backend
+
+//cd Bottle-Quality-Detection-System
+
+
+
+cd Testing_APP
+cd Back_End
+python -m uvicorn main:app --reload
